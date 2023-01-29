@@ -1,3 +1,5 @@
+<?php
+
 // reference: https://stackoverflow.com/a/43760108/620061
 
 
@@ -24,3 +26,5 @@ function dt_list_table_views($views){
    $views['all'] = '<a href="users.php" class="' . $class_all . '">' . __('All') . ' <span class="count">(' . $all_num . ')</span></a>';
    return $views;
 }
+
+?>
